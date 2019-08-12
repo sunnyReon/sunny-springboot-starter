@@ -21,7 +21,7 @@ public class UserController {
     public User getUser()
     {
         User u=new User();
-        u.setName("sunny");
+        u.setName("sunny2");
         u.setAge(18);
         u.setBirthday(new Date());
         u.setPassword("111111");
@@ -34,8 +34,8 @@ public class UserController {
     public JSONResult getUserJson()
     {
         User u=new User();
-        u.setName("sunny");
-        u.setAge(18);
+        u.setName("sunny2");
+        u.setAge(19);
         u.setBirthday(new Date());
         u.setPassword("111111");
 
